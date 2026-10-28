@@ -5,7 +5,7 @@ ob_start();
 <!-- Welcome Banner / Header Card -->
 <div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body p-4">
-        <h2 class="mb-1 fw-bold text-primary">Welcome to My Company Management System</h2>
+        <h2 class="mb-1 fw-bold text-primary">Welcome to Khaslana Lumière Paws Management System</h2>
         <p class="text-muted mb-0">Manage products, customers, staff members, and orders efficiently in one place.</p>
     </div>
 </div>
