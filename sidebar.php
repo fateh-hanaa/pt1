@@ -1,49 +1,90 @@
 <div id="mySidebar" class="col-auto bg-dark text-white offcanvas-lg offcanvas-start">
-        <div class="p-4">
-          <a href="#" class="navbar-brand">
+    <div class="p-4">
+        <a href="home.php" class="navbar-brand">
             <div class="row">
-              <h5 class="">My Company</h5>
+                <h5 class="">My Company</h5>
             </div>
-          </a>
+        </a>
 
-          <hr>
-           
-          <ul class="mynav nav nav-pills flex-column">
+        <hr>
+
+        <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
-              <a href="" class="text-decoration-none text-white">
-                <i class="bi bi-house-fill me-2"></i>
-                Home
-              </a>
+                <a href="home.php" class="text-decoration-none text-white">
+                    <i class="bi bi-house-fill me-2"></i>
+                    Home
+                </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
-                <i class="bi bi-bar-chart-line-fill me-2"></i>
-                Dashboard
-              </a>
+                <a href="#" class="text-decoration-none text-white">
+                    <i class="bi bi-bar-chart-line-fill me-2"></i>
+                    Dashboard
+                </a>
             </li>
-            <!-- Add more menus -->
-          </ul>
+            <!-- Added Menus -->
+            <li class="nav-item mb-3">
+                <a href="products.php" class="text-decoration-none text-white">
+                    <i class="bi bi-box-seam-fill me-2"></i>
+                    Products
+                </a>
+            </li>
+            <li class="nav-item mb-3">
+                <a href="customers.php" class="text-decoration-none text-white">
+                    <i class="bi bi-people-fill me-2"></i>
+                    Customers
+                </a>
+            </li>
+            <li class="nav-item mb-3">
+                <a href="staffs.php" class="text-decoration-none text-white">
+                    <i class="bi bi-person-badge-fill me-2"></i>
+                    Staffs
+                </a>
+            </li>
+            <li class="nav-item mb-3">
+                <a href="orders.php" class="text-decoration-none text-white">
+                    <i class="bi bi-cart-fill me-2"></i>
+                    Orders
+                </a>
+            </li>
+        </ul>
 
-          <hr>
-             
-          <div class="dropdown">
+        <hr>
+
+        <div class="dropdown">
             <a href="#" class="text-decoration-none text-white dropdown-toggle d-inline-block align-middle" data-bs-toggle="dropdown">
-                 
-              <div class="rounded-circle bg-secondary text-center d-inline-block align-middle"
-                style="width: 50px; height: 50px; line-height: 50px;">
-                <i class="bi bi-person-fill text-white fs-4"></i>
-              </div>
-               
-              <div class="d-inline-block align-middle ms-2 text-start">
-                <h6 class="mb-0 text-nowrap">User</h6>
-                <small class="text-white-50 text-nowrap d-block">user@email.com</small>
-              </div>
-                 
+                <div class="rounded-circle bg-secondary text-center d-inline-block align-middle" style="width: 50px; height: 50px; line-height: 50px;">
+                    <i class="bi bi-person-fill text-white fs-4"></i>
+                </div>
+                <div class="d-inline-block align-middle ms-2 text-start">
+                    <h6 class="mb-0 text-nowrap">User</h6>
+                    <small class="text-white-50 text-nowrap d-block">user@email.com</small>
+                </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="">Logout</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
-          </div>
-
         </div>
-      </div>
+
+        <div class="col-md-3">
+            <label for="size" class="form-label">Size <span class="text-danger">*</span></label>
+            <select name="product_size" id="size" class="form-select" required>
+                <option value="">Select Size</option>
+                <option value="Small">Small (15 cm)</option>
+                <option value="Medium">Medium (30 cm)</option>
+                <option value="Large">Large (50 cm)</option>
+                <option value="Jumbo">Jumbo (100 cm+)</option>
+            </select>
+        </div>
+
+        <div class="col-md-3">
+            <label for="material" class="form-label">Filling Material <span class="text-danger">*</span></label>
+            <select name="product_material" id="material" class="form-select" required>
+                <option value="">Select Material</option>
+                <option value="PP Cotton">PP Cotton</option>
+                <option value="Memory Foam">Memory Foam</option>
+                <option value="Microbeads">Microbeads</option>
+                <option value="Recycled Fiber">Recycled Polyester</option>
+            </select>
+        </div>
+    </div>
+</div>
