@@ -3,10 +3,17 @@ ob_start();
 ?>
 
 <!-- Welcome Banner / Header Card -->
-<div class="card shadow border-0 border-start border-5 border-primary mb-4">
+<div class="card shadow border-0 border-start border-5 border-danger mb-4">
     <div class="card-body p-4">
-        <h2 class="mb-1 fw-bold text-primary">Welcome to Khaslana Lumière Paws Management System</h2>
-        <p class="text-muted mb-0">Manage products, customers, staff members, and orders efficiently in one place.</p>
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <img src="logo.png" alt="Khaslana Lumière Paws Logo" class="img-fluid rounded-circle" style="max-height: 80px; width: auto;">
+            </div>
+            <div class="col">
+                <h2 class="mb-1 fw-bold text-danger">Welcome to Khaslana Lumière Paws Management System</h2>
+                <p class="text-muted mb-0">Manage plushie products, customers, staff members, and orders efficiently in one place.</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -23,22 +30,22 @@ ob_start();
                 <div class="carousel-item active bg-dark text-white p-5 text-center" style="min-height: 250px;">
                     <div class="d-flex flex-column justify-content-center align-items-center h-100 py-4">
                         <i class="bi bi-box-seam display-3 mb-3 text-warning"></i>
-                        <h3 class="fw-bold">Inventory Management</h3>
-                        <p class="lead">Track stock levels, add new inventory, and manage product listings seamlessly.</p>
+                        <h3 class="fw-bold">Plushie Inventory Management</h3>
+                        <p class="lead">Track stock levels, add new stuffed animal inventory, and manage product listings seamlessly.</p>
                     </div>
                 </div>
                 <div class="carousel-item bg-secondary text-white p-5 text-center" style="min-height: 250px;">
                     <div class="d-flex flex-column justify-content-center align-items-center h-100 py-4">
                         <i class="bi bi-people-fill display-3 mb-3 text-info"></i>
                         <h3 class="fw-bold">Customer & Staff Directory</h3>
-                        <p class="lead">Maintain complete records for your clients and team members.</p>
+                        <p class="lead">Maintain complete records for your plushie store clients and Khaslana team members.</p>
                     </div>
                 </div>
                 <div class="carousel-item bg-primary text-white p-5 text-center" style="min-height: 250px;">
                     <div class="d-flex flex-column justify-content-center align-items-center h-100 py-4">
                         <i class="bi bi-cart-check-fill display-3 mb-3 text-light"></i>
                         <h3 class="fw-bold">Order & Invoice Processing</h3>
-                        <p class="lead">Create customer orders, review detailed line items, and generate printable invoices.</p>
+                        <p class="lead">Create customer orders, review detailed plushie line items, and generate printable sales invoices.</p>
                     </div>
                 </div>
             </div>
@@ -61,7 +68,7 @@ ob_start();
             <div class="card-body d-flex flex-column align-items-center justify-content-center">
                 <i class="bi bi-box-seam text-primary display-5 mb-3"></i>
                 <h5 class="card-title fw-bold">Products</h5>
-                <p class="card-text text-muted small">Manage product details, pricing, and stock levels.</p>
+                <p class="card-text text-muted small">Manage plushie details, RM pricing, sizes, and filling materials.</p>
                 <a href="products.php" class="btn btn-outline-primary btn-sm mt-auto">Go to Products</a>
             </div>
         </div>
@@ -71,7 +78,7 @@ ob_start();
             <div class="card-body d-flex flex-column align-items-center justify-content-center">
                 <i class="bi bi-people text-success display-5 mb-3"></i>
                 <h5 class="card-title fw-bold">Customers</h5>
-                <p class="card-text text-muted small">View customer profiles and registration history.</p>
+                <p class="card-text text-muted small">View customer profiles, phone numbers, and registration history.</p>
                 <a href="customers.php" class="btn btn-outline-success btn-sm mt-auto">Go to Customers</a>
             </div>
         </div>
@@ -81,7 +88,7 @@ ob_start();
             <div class="card-body d-flex flex-column align-items-center justify-content-center">
                 <i class="bi bi-person-badge text-warning display-5 mb-3"></i>
                 <h5 class="card-title fw-bold">Staffs</h5>
-                <p class="card-text text-muted small">Track employee contact info and staff IDs.</p>
+                <p class="card-text text-muted small">Track employee contact info, official emails, and staff IDs.</p>
                 <a href="staffs.php" class="btn btn-outline-warning btn-sm mt-auto">Go to Staffs</a>
             </div>
         </div>
@@ -91,7 +98,7 @@ ob_start();
             <div class="card-body d-flex flex-column align-items-center justify-content-center">
                 <i class="bi bi-cart-check text-danger display-5 mb-3"></i>
                 <h5 class="card-title fw-bold">Orders</h5>
-                <p class="card-text text-muted small">Process sales transactions and view invoices.</p>
+                <p class="card-text text-muted small">Process sales transactions, view itemized details, and print invoices.</p>
                 <a href="orders.php" class="btn btn-outline-danger btn-sm mt-auto">Go to Orders</a>
             </div>
         </div>
