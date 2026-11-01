@@ -80,7 +80,7 @@ ob_start();
                 <small class="text-muted">View and manage all customers</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 4 items</span>
             </div>
         </div>
 
@@ -101,8 +101,8 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>C001</td>
-                        <td>John Doe</td>
-                        <td>Male</td>
+                        <td>Nadiah Husna binti Hasan</td>
+                        <td>Female</td>
                         <td>012-3456789</td>
                         <td>01-01-2026</td>
                         <td>
@@ -110,8 +110,39 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
-                    <!-- Empty state fallback row -->
-                    <!-- <tr><td colspan="6" class="text-center">No customers found</td></tr> -->
+                    <tr>
+                        <td>C002</td>
+                        <td>Nur Sarah Binti Ahmad</td>
+                        <td>Female</td>
+                        <td>013-8294011</td>
+                        <td>12-01-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C003</td>
+                        <td>Aishah Binti Ramli</td>
+                        <td>Female</td>
+                        <td>017-9123845</td>
+                        <td>25-01-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C004</td>
+                        <td>Siti Maryam Binti Zainal</td>
+                        <td>Female</td>
+                        <td>019-4567123</td>
+                        <td>05-02-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>

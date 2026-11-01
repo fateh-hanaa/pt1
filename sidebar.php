@@ -50,7 +50,7 @@
 
         <hr>
 
-        <div class="dropdown">
+        <div class="dropdown mb-4">
             <a href="#" class="text-decoration-none text-white dropdown-toggle d-inline-block align-middle" data-bs-toggle="dropdown">
                 <div class="rounded-circle bg-secondary text-center d-inline-block align-middle" style="width: 50px; height: 50px; line-height: 50px;">
                     <i class="bi bi-person-fill text-white fs-4"></i>
@@ -65,8 +65,11 @@
             </ul>
         </div>
 
-        <div class="col-md-3">
-            <label for="size" class="form-label">Size <span class="text-danger">*</span></label>
+        <hr>
+
+        <!-- Dropdowns styled with w-100 so they fit the sidebar width cleanly -->
+        <div class="w-100 mb-3">
+            <label for="size" class="form-label text-white">Size <span class="text-danger">*</span></label>
             <select name="product_size" id="size" class="form-select" required>
                 <option value="">Select Size</option>
                 <option value="Small">Small (15 cm)</option>
@@ -76,8 +79,8 @@
             </select>
         </div>
 
-        <div class="col-md-3">
-            <label for="material" class="form-label">Filling Material <span class="text-danger">*</span></label>
+        <div class="w-100 mb-3">
+            <label for="material" class="form-label text-white">Filling Material <span class="text-danger">*</span></label>
             <select name="product_material" id="material" class="form-select" required>
                 <option value="">Select Material</option>
                 <option value="PP Cotton">PP Cotton</option>
@@ -86,5 +89,6 @@
                 <option value="Recycled Fiber">Recycled Polyester</option>
             </select>
         </div>
+
     </div>
 </div>

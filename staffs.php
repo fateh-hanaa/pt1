@@ -72,7 +72,7 @@ ob_start();
                 <small class="text-muted">View and manage all staff members</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 3 items</span>
             </div>
         </div>
 
@@ -92,9 +92,29 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>S001</td>
-                        <td>Jane Smith</td>
+                        <td>Masyitah Nadhirah binti Mahamad Noor</td>
                         <td>019-8765432</td>
-                        <td>janesmith@example.com</td>
+                        <td>masyitahnadhirah@gmail.com</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>S002</td>
+                        <td>Nurul Huda Binti Hassan</td>
+                        <td>011-23456789</td>
+                        <td>nurulhuda@gmail.com</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>S003</td>
+                        <td>Farah Anisa Binti Azman</td>
+                        <td>017-3344556</td>
+                        <td>farahanisa@gmail.com</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
                             <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>

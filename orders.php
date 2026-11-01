@@ -38,13 +38,18 @@ ob_start();
                     <select name="staff_num" id="staff_num" class="form-select" required>
                         <option value="">Select Staff</option>
                         <option value="S001">Jane Smith</option>
+                        <option value="S002">Nurul Huda Binti Hassan</option>
+                        <option value="S003">Farah Anisa Binti Azman</option>
                     </select>
                 </div>
                 <div class="col-md-4">
                     <label for="customer_num" class="form-label">Customer <span class="text-danger">*</span></label>
                     <select name="customer_num" id="customer_num" class="form-select" required>
                         <option value="">Select Customer</option>
-                        <option value="C001">Alice Johnson</option>
+                        <option value="C001">John Doe</option>
+                        <option value="C002">Nur Sarah Binti Ahmad</option>
+                        <option value="C003">Aishah Binti Ramli</option>
+                        <option value="C004">Siti Maryam Binti Zainal</option>
                     </select>
                 </div>
             </div>
@@ -74,7 +79,7 @@ ob_start();
                 <small class="text-muted">View orders and their products</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 4 items</span>
             </div>
         </div>
 
@@ -95,8 +100,44 @@ ob_start();
                     <tr>
                         <td>O001</td>
                         <td>2026-10-03</td>
-                        <td>Jane Smith</td>
-                        <td>Alice Johnson</td>
+                        <td>Masyitah Nadhirah binti Mahamad Noor</td>
+                        <td>Nadiah Husna binti Hasan</td>
+                        <td>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>O002</td>
+                        <td>2026-10-15</td>
+                        <td>Nurul Huda Binti Hassan</td>
+                        <td>Nur Sarah Binti Ahmad</td>
+                        <td>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>O003</td>
+                        <td>2026-10-22</td>
+                        <td>Farah Anisa Binti Azman</td>
+                        <td>Aishah Binti Ramli</td>
+                        <td>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
+                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>O004</td>
+                        <td>2026-11-01</td>
+                        <td>Masyitah Nadhirah binti Mahamad Noor</td>
+                        <td>Siti Maryam Binti Zainal</td>
                         <td>
                             <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
                             <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
